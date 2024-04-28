@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     return (
         <MoralisProvider initializeOnMount={false}>
             <NotificationProvider>
-                <Component {...pageProps}></Component>
+                <Component {...pageProps} />
             </NotificationProvider>
         </MoralisProvider>
     )
